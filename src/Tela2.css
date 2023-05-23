@@ -1,0 +1,44 @@
+.txt1{
+    width: 400px;
+    height: 400px;
+  }
+  #tela-2{
+    background-color:#e54d27;
+    height: 1400px;
+   }
+   #exemplohtml1{
+  top: 400px;
+  left: -350px;
+  }
+   .htmlfotos{
+    border: none;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    width: 331px;
+    height: 331px;
+    background-size: cover;
+    background-position: center;
+    min-width: 200px;
+    min-height: 200px;
+  }
+  #gamer{
+    background-image: url('logo-g3f67c4cb6_1280.png');
+    top: -200px;
+    left: -350px;
+  }
+  
+  .card-shadow1{
+    width: 330px;
+    height: 274px;
+    border-radius: 10px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin-left: 200px;
+   }
+   .con {
+    transform: translateX(0%) translateY(50%);
+    border: none;
+    position: relative;
+    width: 400px;
+    height: 400px;
+  }

@@ -1,0 +1,21 @@
+#tela-4{
+    background-color: #f9dd3e;
+    height: 800px;
+
+}
+#cssfoto{
+    width: 20%;
+    margin-left:70%;
+    margin-top: -20%; 
+}
+.card-shadow4{
+    width: 330px;
+    height: 274px;
+    border-radius: 10px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin-left: 200px;
+}
+#js{
+    top: -50px;
+    left: -350px;
+}

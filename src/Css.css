@@ -1,0 +1,15 @@
+#tela3{
+    background-color: #369ad7;
+    height: 800px;
+}
+  #fotos{
+    top: -50px;
+    left: -350px;
+  }
+  .con {
+    transform: translateX(450%) translateY(0%);
+    border: none;
+    position: relative;
+    width: 400px;
+    height: 400px;
+  }

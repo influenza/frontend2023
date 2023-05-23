@@ -1,0 +1,35 @@
+#carrosoul{
+    position: relative;
+    outline: 3px solid black;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.8);
+    margin: auto;
+    overflow: hidden;
+    width: 300px;
+    height: 250px;
+  }
+  
+  #carrosoul ul{
+    list-style: none;
+    width: 1200px;
+    height: 250px;
+    display: flex;
+  }
+  #carrosoul ul li img{
+    width: 300px;
+    height: 250px;
+    margin-left: -32px;
+  }
+  
+  #carrosoul li{
+    position: relative;
+    animation: slide 8s infinite ease-out;
+  }
+  
+  @keyframes slide{
+    0%{left: 0;}
+    35%{left: 0;}
+    50%{left: -300px;}
+    75%{left: -300px;}
+    100%{left: -600px;}
+  }
+  
