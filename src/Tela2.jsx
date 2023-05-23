@@ -26,7 +26,7 @@ export default function Tela2(){
       <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png" className="htmlfotos" id="gamer" alt="" />
 
       <div id="subcon">
-      <img src="Screenshot_4.png" id="exemplo" alt="" /><br/>
+      <img src="/fotos/Screenshot_4.png" id="exemplo" alt="" /><br/>
       exemplo do uso do elemento button no html
         </div>
       </div>

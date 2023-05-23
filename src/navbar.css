@@ -70,9 +70,6 @@
     margin: 10px;
     text-align: center;
   }
-  #insta{
-    margin-right: auto;
-  }
   @media screen and(min-width:480px) {
     #insta{width: 60px;}
   }
