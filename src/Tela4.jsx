@@ -8,7 +8,8 @@ export default function Tela4(){
         </div>
       <div className="card-shadow4">
   <p>
-<p style={{fontSize:"150%"}}>JavaScript é uma linguagem de programação que adiciona interatividade e dinamismo às páginas web. Com ele, os desenvolvedores podem criar efeitos visuais, animações, manipular elementos da página em tempo real e realizar ações baseadas em eventos, como cliques e digitação do usuário. O JavaScript também possibilita a comunicação com servidores, permitindo a atualização de conteúdo de forma assíncrona, sem a necessidade de recarregar a página completa.</p>
+<p style={{fontSize:"150%"}}>JavaScript é uma linguagem de programação que adiciona interatividade e dinamismo às páginas web. Com ele, os desenvolvedores podem criar efeitos visuais, animações, manipular elementos da página em tempo real e realizar ações baseadas em eventos, como cliques e digitação do usuário.</p>
+<p style={{fontSize:"150%"}}> o javascript permite a manipulacao do html css atraves do codigo e utilizando a logica o que abre novas possibilidades as aplicacoes </p>
 <br/>
   </p>
         </div>
@@ -23,7 +24,7 @@ export default function Tela4(){
       </ul>
       </div>*/}
       <div className="con">
-      <img src="logo-javascript-1024.png" className="htmlfotos" id="js" alt="" />
+      <img src="https://logospng.org/download/javascript/logo-javascript-1024.png" className="htmlfotos" id="js" alt="" />
       </div>
       </div>
     )

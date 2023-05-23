@@ -22,7 +22,7 @@ export default function Bootstrap(){
 </ul>
 </div>*/}
 <div className="con">
-<img src="bootstrap-stack.png"className="htmlfotos" id="fotos1" alt="" />
+<img src="https://getbootstrap.com.br/docs/4.1/assets/img/bootstrap-stack.png"className="htmlfotos" id="fotos1" alt="" />
 </div>
 </div>
 )

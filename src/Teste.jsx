@@ -81,7 +81,8 @@ export default function Teste() {
     <script id="script"/>
     <div id="teste">
       <div>
-        <p id=""> agora você poderá praticar HTML, CSS e JS</p>
+        <h2>Desafio</h2>
+        <p id=""> Esse e o momento de praticar suas habilidades em html css e javascript, e criar algo novo baseado nos aprendiasados </p>
         <TabControl />
         <textarea name="" id="cod1" className="codigo" cols="30" rows="10" value={codigo} onChange={handleMudanca}></textarea>
         <textarea name="" className="codigo" cols="30" rows="10" value={codigoCss} onChange={handleMudancaCss}></textarea>
@@ -104,6 +105,7 @@ export default function Teste() {
           <div dangerouslySetInnerHTML={{ __html: codigo }}></div>
         </div>
       </div>
+      <p>Aqui havera algumas opcoes de codigos prefeitos</p>
       <select className="button" onChange={handleFuncoes}>
         <option value="Alterar cor do botão"> Alterar cor do botão </option>
         <option value="bola"> criar esfera azul </option>

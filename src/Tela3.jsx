@@ -9,8 +9,9 @@ export default function Tela3(){
         </div>
       <div style={{backgroundColor:"#369ad7"}} className="card-shadow1">
   <p>
-  <p style={{fontSize:"150%"}}>HTML é a espinha dorsal do frontend. É uma linguagem de marcação que permite estruturar o conteúdo do site, definindo elementos como cabeçalhos, parágrafos, imagens, links e formulários. Com o HTML, os desenvolvedores podem organizar e hierarquizar o conteúdo, facilitando a formatação e a acessibilidade.</p><br/>
+  <p style={{fontSize:"150%"}}>CSS, sigla para Cascading Style Sheets (Folhas de Estilo em Cascata), é uma linguagem de estilo utilizada para definir a aparência e o design de páginas da web. Ela trabalha em conjunto com o HTML para estruturar e formatar os elementos presentes em uma página, permitindo que os desenvolvedores tenham controle completo sobre a apresentação visual do conteúdo.</p><br/>
   </p>
+  <p style={{fontSize:"150%"}}>Podemos utilizar o css atraves do elemento style, de um arquivo css separado ou atraves do atributo style, o css pode ser manipulado atraves de id, class, tipos de elementos e ate atraves dos "filhos"</p>
         </div>
 
     {/* <div id="carrosoul">
@@ -24,7 +25,7 @@ export default function Tela3(){
       </ul>
       </div>*/}
       <div className="con">
-      <img src="logo-gaa056c9a9_1280.png"className="htmlfotos" id="fotos" alt="" />
+      <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png"className="htmlfotos" id="fotos" alt="" />
       </div>
       </div>
         </>

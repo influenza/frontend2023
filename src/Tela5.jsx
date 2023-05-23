@@ -1,3 +1,4 @@
+import Sass from "./Saas"
 import "./Tela4.css"
 import Bootstrap from "./bootstrap"
 import React from "./react"
@@ -6,6 +7,7 @@ export default function Tela5(){
   <>
   <React/>
   <Bootstrap/>
+  <Sass/>
   </>
     )
 }

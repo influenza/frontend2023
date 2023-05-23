@@ -21,22 +21,22 @@ const TabControl = () => {
           className="button"
           onClick={() => handleTabClick(0,arr[1],arr[2])}
         >
-         <img src="logo-g3f67c4cb6_1280.png" style={{width:"50px", height:"50px"}}/>
-         html 
+         <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png" style={{width:"50px", height:"50px"}}/>
+          HTML
         </button>
         <button
           className="button"
           onClick={() => handleTabClick(1,arr[0],arr[2])}
         >
-        <img src="logo-gaa056c9a9_1280.png" style={{width:"50px", height:"50px"}}/>
-         css
+        <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" style={{width:"50px", height:"50px"}}/>
+         CSS
         </button>
         <button
           className="button"
           onClick={() => handleTabClick(2, arr[0],arr[1])}
         >
-        <img src="logo-javascript-1024.png" style={{width:"50px", height:"50px"}}/>
-         js
+        <img src="https://logospng.org/download/javascript/logo-javascript-1024.png" style={{width:"50px", height:"50px"}}/>
+         JavaScript
         </button>
       </div>
     </div>

@@ -6,10 +6,6 @@
     background-color:#e54d27;
     height: 1400px;
    }
-   #exemplohtml1{
-  top: 400px;
-  left: -350px;
-  }
    .htmlfotos{
     border: none;
     position: absolute;
@@ -23,11 +19,14 @@
     min-height: 200px;
   }
   #gamer{
-    background-image: url('logo-g3f67c4cb6_1280.png');
     top: -200px;
     left: -350px;
   }
-  
+  #subcon{
+    position: absolute;
+    left: -400px;
+    top: 400px;
+  }
   .card-shadow1{
     width: 330px;
     height: 274px;

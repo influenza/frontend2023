@@ -1,9 +1,8 @@
 #tela-1{
   position: relative;
-    background-image: url("/BeautyBeach.jpg");
-    background-repeat: no-repeat;
-    background-size: auto;
-    height: 1250px;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #d5bdaf;
   }
   #titulo-inicial{
     margin-top: auto;
@@ -17,8 +16,10 @@
     transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     margin-left: 1500px;
     top: 300px;
+    overflow: auto; /* ou overflow: scroll; */
    }
-   #container{
-    display: block;
-    position: fixed;
-   }
+@media(min-width:850px){
+  .card-shadow{
+    font-size: 100%;
+  }
+}

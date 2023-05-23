@@ -28,7 +28,7 @@ export default function Frontend(){
       </ul>
       </div>*/}
       <div className="con">
-      <img src="487779-200.png" id="P"className="htmlfotos" alt="" />
+      <img src="https://cdn-icons-png.flaticon.com/512/6943/6943958.png" id="P"className="htmlfotos" alt="" />
       </div>
       </div>
     )

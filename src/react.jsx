@@ -22,7 +22,7 @@ export default function React(){
 </ul>
 </div>*/}
 <div className="con">
-<img src="logo-react-icon.png"className="htmlfotos" id="fotos" alt="" />
+<img src="https://gitlab.com/uploads/-/system/project/avatar/31182514/logo-react-icon.png"className="htmlfotos" id="fotos" alt="" />
 </div>
 </div>
 )
