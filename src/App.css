@@ -10,11 +10,6 @@ body{
 h2{
   margin-left: 18px;
 }
-#select{
-  position:absolute;
-  top:5830px;
-  margin-left: 20px;
-}
 .codigo{
   z-index: 10;
   position: absolute;
