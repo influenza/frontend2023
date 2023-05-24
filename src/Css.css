@@ -1,6 +1,6 @@
 #tela3{
     background-color: #369ad7;
-    height: 700px;
+    height: 750px;
 }
   .con {
     transform: translateX(450%) translateY(0%);
@@ -11,10 +11,15 @@
   }
   #subconcss{
     position: absolute;
-    left: -380px;
+    left: -550px;
     top: 30px;
+  }
+  #exemplo1{
+    width: 500px;
+    height: 250px;
   }
   #fotos{
     position: absolute;
     top: -150px;
+    
   }

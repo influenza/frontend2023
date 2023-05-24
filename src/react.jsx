@@ -7,7 +7,7 @@ export default function React(){
   </div>
 <div className="card-shadow1">
 <p>
-<p style={{fontSize:"150%"}}>React é uma biblioteca JavaScript de código aberto mantida pelo Facebook. Ele permite construir interfaces de usuário reativas e componentizadas. Com o React, os desenvolvedores podem dividir a interface do usuário em componentes reutilizáveis, facilitando a construção e a manutenção de aplicativos complexos. Ele usa uma abordagem baseada em componentes, em que cada parte do aplicativo é representada por um componente que pode ser atualizado independentemente. Além disso, o React utiliza uma técnica chamada "Virtual DOM" para otimizar o desempenho das atualizações na interface do usuário.</p><br/>
+<p style={{fontSize:"150%"}}>React é uma biblioteca JavaScript de código aberto mantida pelo Facebook. Ela permite construir interfaces de usuário reativas e componentizadas. Com o React, os desenvolvedores podem dividir a interface do usuário em componentes reutilizáveis, facilitando a construção e a manutenção de aplicativos complexos. Ele usa uma abordagem baseada em componentes, em que cada parte do aplicativo é representada por um componente que pode ser atualizado independentemente. Além disso, o React utiliza uma técnica chamada "Virtual DOM" para otimizar o desempenho das atualizações na interface do usuário.</p><br/>
 </p>
   </div>
 

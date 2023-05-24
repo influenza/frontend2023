@@ -23,7 +23,8 @@ function App() {
       <Tela4/>
       <Teste/>
       <Tela5/>
-      <Rodape/>
+      <div style={{backgroundColor:"#9a4a74", height:"110px"}}>
+      </div>
     </>
   );
 }

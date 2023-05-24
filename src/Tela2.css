@@ -4,7 +4,7 @@
   }
   #tela-2{
     background-color:#e54d27;
-    height: 1000px;
+    height: 1100px;
    }
    .htmlfotos{
     border: none;
@@ -18,16 +18,16 @@
     min-height: 200px;
   }
   #exemplo{
-    width: 400px;
-    height: 180px;
+    width: 500px;
+    height: 250px;
   }
   #gamer{
     top: -350px;
   }
   #subcon{
     position: absolute;
-    left: -450px;
-    top: 250px;
+    left: -550px;
+    top: 150px;
   }
   .card-shadow1{
     width: 530px;
@@ -42,4 +42,7 @@
     position: relative;
     width: 400px;
     height: 400px;
+  }
+  .subs{
+    margin-left: 20px;
   }

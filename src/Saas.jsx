@@ -1,10 +1,10 @@
 import "./Saas.css"
 export default function Sass(){
     return(
-        <div id="telainicial12" style={{backgroundColor:"#9a4a74"}}>
+        <div id="telainicial12" style={{backgroundColor:"#9a4a74", height:"700px"}}>
         <div className="titulo inicial1">
       <h2>Saas</h2>
-      <p>Syntactically Awesome StyleSheets</p>
+      <p className="subs">Syntactically Awesome StyleSheets</p>
   </div>
 <div className="card-shadow1">
 <p>
