@@ -126,7 +126,7 @@ export default function Teste() {
             <div dangerouslySetInnerHTML={{ __html: codigo }}></div>
           </div>
         </div>
-        <div id="select">
+        <div id="select" style={{position:"absolute",top:"5830px"}}>
           <p>Aqui haverá algumas opções de códigos prefeitos</p>
           <select className="button" onChange={handleFuncoes}>
             <option value="Alterar cor do botão"> Botão com cor aleatória </option>
