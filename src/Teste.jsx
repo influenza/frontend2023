@@ -72,25 +72,26 @@ export default function Teste() {
     }/* Com esse código, tudo que for escrito na caixa de texto será impresso na tela */`)
     setCodigoCss("#Button{\n\n}\n// Essa é a id do botão, qualquer linha de código aqui refletirá no botão //")
   }
-  const handletabuada = () => {
-    setCodigo(`<p>Insira um número</p>\n<input type="text" onchange="app()" id="txt"/><br/><p id="lblsaida"></p> <!-- Aqui temos uma caixa de texto e um parágrafo vazio --> `)
-    setCodigoJs(`function app() {
+  const  handletabuada =()=>{
+    setCodigo(`<p>insira um numero</p>\n<input type="text" onchange="app()" id="txt"/><br/><p id="lblsaida"></p> <!-- aqui temos uma caixa de texto e um paragrafo vazio--> `)
+    setCodigoJs(`${function app(){
       
-      let conjuntotxt = "";
-      const txt = document.getElementById("txt").value;
-      if (isNaN(parseInt(txt))) {
+      let conjuntotxt="";
+      const txt=document.getElementById("txt").value
+      if(isNaN(parseInt(txt))){
         console.log(isNaN(parseInt(txt)))
-        document.getElementById("lblsaida").textContent = "Você deve inserir um termo válido";
+        document.getElementById("lblsaida").textContent="voce deve inserir um termo valido"
       }
-      else {
-        for (let index = 1; index < 10; index++) {
+      else{
+      for (let index = 1; index < 10; index++) {
 
-          let num = parseInt(txt) * index;
-          conjuntotxt += "Termo" + index.toString() + "°: " + num.toString() + "\n\n";
-        }
-        document.getElementById("lblsaida").textContent = conjuntotxt;
+          let num = parseInt(txt)*index
+          conjuntotxt+="Termo"+index.toString()+"°: "+num.toString()+"\n\n"
+      }
+      document.getElementById("lblsaida").textContent=conjuntotxt
       }
 
+}  
     }/* O código primeiro define duas variáveis, uma referenciando a um texto vazio e a outra referenciando ao texto da caixa de texto. Primeiramente, ele confere se txt é um número. Se ele não for, ele imprime uma mensagem na página. Se for, o código, utilizando o laço de repetição for, faz o valor da caixa de texto vezes os números de 1 a 10 e armazena tudo no conjunto de texto que, no final, vira o conteúdo do card */
     `)
     setCodigoCss("#Button{\n\n}\n// Essa é a id do botão, qualquer linha de código aqui refletirá no botão //")
@@ -132,7 +133,7 @@ export default function Teste() {
         <div id="select">
           <p>Aqui haverá algumas opções de códigos prefeitos</p>
           <select className="button" onChange={handleFuncoes}>
-            <option value="Alterar cor do botão"> Alterar cor do botão </option>
+            <option value="Alterar cor do botão"> Botão com cor aleatória </option>
             <option value="bola"> Criar esfera azul </option>
             <option value="caixa de texto"> Inserir caixa de texto e texto </option>
             <option value="tabuada">Crie uma tabuada</option>
