@@ -74,24 +74,22 @@ export default function Teste() {
   }
   const  handletabuada =()=>{
     setCodigo(`<p>Insira um numero</p>\n<input type="text" onchange="app()" id="txt"/><br/><p id="lblsaida"></p> <!-- aqui temos uma caixa de texto e um paragrafo vazio--> `)
-    setCodigoJs(`function app(){\n
-      
-      let conjuntotxt="";\n
-      const txt=document.getElementById("txt").value\n
-      if(isNaN(parseInt(txt))){\n
-        console.log(isNaN(parseInt(txt)))\n
-        document.getElementById("lblsaida").textContent="voce deve inserir um termo valido"\n
+    setCodigoJs(`function app(){
+      let conjuntotxt="";
+      const txt=document.getElementById("txt").value
+      if(isNaN(parseInt(txt))){
+        console.log(isNaN(parseInt(txt)))
+        document.getElementById("lblsaida").textContent="voce deve inserir um termo valido"
       }
       else{
-      for (let index = 1; index < 10; index++) {\n
+      for (let index = 1; index < 10; index++) {
 
-          let num = parseInt(txt)*index\n
-          conjuntotxt+="Termo"+index.toString()+"°: "+num.toString()+"\n\n"
+          let num = parseInt(txt)*index
+          conjuntotxt+="Termo"+index.toString()+"°: "+num.toString()+"\n"
       }
-      document.getElementById("lblsaida").textContent=conjuntotxt\n
+      document.getElementById("lblsaida").textContent=conjuntotxt
       }
-
- /* O código primeiro define duas variáveis, uma referenciando a um texto vazio e a outra referenciando ao texto da caixa de texto. Primeiramente, ele confere se txt é um número. Se ele não for, ele imprime uma mensagem na página. Se for, o código, utilizando o laço de repetição for, faz o valor da caixa de texto vezes os números de 1 a 10 e armazena tudo no conjunto de texto que, no final, vira o conteúdo do card */
+}  /* O código primeiro define duas variáveis, uma referenciando a um texto vazio e a outra referenciando ao texto da caixa de texto. Primeiramente, ele confere se txt é um número. Se ele não for, ele imprime uma mensagem na página. Se for, o código, utilizando o laço de repetição for, faz o valor da caixa de texto vezes os números de 1 a 10 e armazena tudo no conjunto de texto que, no final, vira o conteúdo do card */
     `)
     setCodigoCss("#Button{\n\n}\n// Essa é a id do botão, qualquer linha de código aqui refletirá no botão //")
 
