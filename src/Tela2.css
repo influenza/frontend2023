@@ -4,13 +4,12 @@
   }
   #tela-2{
     background-color:#e54d27;
-    height: 1400px;
+    height: 1000px;
    }
    .htmlfotos{
     border: none;
     position: absolute;
-    top: 150px;
-    left: 50px;
+    left: -450px;
     width: 331px;
     height: 331px;
     background-size: cover;
@@ -18,18 +17,21 @@
     min-width: 200px;
     min-height: 200px;
   }
+  #exemplo{
+    width: 400px;
+    height: 180px;
+  }
   #gamer{
-    top: -200px;
-    left: -350px;
+    top: -350px;
   }
   #subcon{
     position: absolute;
-    left: -400px;
-    top: 400px;
+    left: -450px;
+    top: 250px;
   }
   .card-shadow1{
-    width: 330px;
-    height: 274px;
+    width: 530px;
+    height: 324px;
     border-radius: 10px;
     transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     margin-left: 200px;

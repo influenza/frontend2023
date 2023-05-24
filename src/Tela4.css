@@ -1,6 +1,6 @@
 #tela-4{
     background-color: #f9dd3e;
-    height: 800px;
+    height: 950px;
 
 }
 #cssfoto{
@@ -9,13 +9,22 @@
     margin-top: -20%; 
 }
 .card-shadow4{
-    width: 330px;
+    width: 530px;
     height: 274px;
     border-radius: 10px;
     transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     margin-left: 200px;
 }
+#sub{
+    position: absolute;
+    left: -450px;
+    top: 200px;
+
+}
 #js{
-    top: -250px;
-    left: -350px;
+    top: -330px;
+}
+#jsex{
+    width: 350px;
+    height: 200px;
 }

@@ -15,7 +15,7 @@ const TabControl = () => {
 
 
   return (
-    <div>
+    <div id="conta">
       <div className="tab-header">
         <button
           className="button"

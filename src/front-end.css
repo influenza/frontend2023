@@ -1,9 +1,19 @@
 #front{
     background-color: #edede9;
-    height: 800px;
+    height: 1000px;
     position: relative;
 }
 #P{
-    top: -150px;
-    left: -350px;
+    top: -300px;
+}
+#card-shadow2{
+    width: 530px;
+    height: 274px;
+    border-radius: 10px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin-left: 200px;
+    position: absolute;
+}
+#p2{
+    top: 150px;
 }

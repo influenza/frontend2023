@@ -23,3 +23,9 @@
     box-shadow: none;
     transform: scale(0.98);
   }
+  #conta img{
+    margin-right: 8px;
+  }
+  #conta{
+    margin-left: 10px;
+  }

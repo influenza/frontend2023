@@ -9,6 +9,7 @@ import Tela3 from "./Tela3";
 import Tela4 from "./Tela4";
 import FrontEnd from "./Front-end";
 import Tela5 from "./Tela5";
+import Rodape from "./footer";
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <Tela4/>
       <Teste/>
       <Tela5/>
+      <Rodape/>
     </>
   );
 }
