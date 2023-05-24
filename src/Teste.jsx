@@ -126,7 +126,6 @@ export default function Teste() {
             <div dangerouslySetInnerHTML={{ __html: codigo }}></div>
           </div>
         </div>  
-      <div id="edu-melo">
                 <div id="select" style={{position:"absolute",top:"5830px",marginLeft: "20px"}}>
           <p>Aqui haverá algumas opções de códigos prefeitos</p>
           <select className="button" onChange={handleFuncoes}>
@@ -135,7 +134,6 @@ export default function Teste() {
             <option value="caixa de texto"> Inserir caixa de texto e texto </option>
             <option value="tabuada">Crie uma tabuada</option>
           </select>
-        </div>
       </div>
       </div>
     </>
