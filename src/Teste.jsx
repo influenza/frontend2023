@@ -74,7 +74,7 @@ export default function Teste() {
   }
   const  handletabuada =()=>{
     setCodigo(`<p>Insira um numero</p>\n<input type="text" onchange="app()" id="txt"/><br/><p id="lblsaida"></p> <!-- aqui temos uma caixa de texto e um paragrafo vazio--> `)
-    setCodigoJs(`function app(){
+    setCodigoJs(`${function app(){
       
       let conjuntotxt="";
       const txt=document.getElementById("txt").value
@@ -92,7 +92,7 @@ export default function Teste() {
       }
 
 }  
-    /* O código primeiro define duas variáveis, uma referenciando a um texto vazio e a outra referenciando ao texto da caixa de texto. Primeiramente, ele confere se txt é um número. Se ele não for, ele imprime uma mensagem na página. Se for, o código, utilizando o laço de repetição for, faz o valor da caixa de texto vezes os números de 1 a 10 e armazena tudo no conjunto de texto que, no final, vira o conteúdo do card */
+    }      /*O codigo primeiro defini duas variaveis uma referenciando a um texto vazio e a outra referenciando ao texto da caixa de texto, primeiramente ele confere se txt e um numero se ele nao for ele imprime uma mensagem na pagina se for o codigo utilizando o laco de repiticao for o codigo faz o valor da caixa de texto vezes os numeros de 1 a 10 e armazena tudo no conjunto texto que no final vira o conteudo do card */
     `)
     setCodigoCss("#Button{\n\n}\n// Essa é a id do botão, qualquer linha de código aqui refletirá no botão //")
 
