@@ -67,6 +67,7 @@
     align-items: center;
   }
   nav li{
+    cursor:pointer;
     margin: 10px;
     text-align: center;
   }
