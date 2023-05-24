@@ -106,7 +106,6 @@ textarea{
 }
 #textareas{
   transform: translateX(0%) translateY(50%);
-  border: none;
   position: relative;
   width: 400px;
   height: 400px;
