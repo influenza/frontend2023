@@ -74,21 +74,20 @@ export default function Teste() {
   }
   const  handletabuada =()=>{
     setCodigo(`<p>Insira um numero</p>\n<input type="text" onchange="app()" id="txt"/><br/><p id="lblsaida"></p> <!-- aqui temos uma caixa de texto e um paragrafo vazio--> `)
-    let txt = `${function app(){
-      let conjuntotxt="";
-      const txt=document.getElementById("txt").value
-      if(isNaN(parseInt(txt))){
-        document.getElementById("lblsaida").textContent= "voce deve inserir um termo valido"
-      }else{
-      for (let index = 1; index < 10; index++) {
-          let num = parseInt(txt)*index
-          conjuntotxt+="Termo"+index.toString()+"°: "+num.toString()+"\n\n"
-      }
-      document.getElementById("lblsaida").textContent=conjuntotxt
-      }
-    }  
-  }
-    `
+    let txt = 'function app(){'+
+    'let conjuntoTxt = "";' +
+    'const txt = document.getElementById("txt").value;' +
+    'if (isNaN(parseInt(txt))) {' +
+    'document.getElementById("lblsaida").textContent = "Você deve inserir um termo válido";' +
+    '} else {' +
+    'for (let index = 1; index < 10; index++) {' +
+    'let num = parseInt(txt) * index;' +
+    'conjuntoTxt += "Termo " + index.toString() + "°: " + num.toString() + "\\n\\n";' +
+    '}' +
+    'document.getElementById("lblsaida").textContent = conjuntoTxt;' +
+    '}' +
+    '}';
+    
     setCodigoJs(txt)
     setCodigoCss("#Button{\n\n}\n// Essa é a id do botão, qualquer linha de código aqui refletirá no botão //")
 
