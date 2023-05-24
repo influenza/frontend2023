@@ -74,7 +74,7 @@ export default function Teste() {
   }
   const  handletabuada =()=>{
     setCodigo(`<p>Insira um numero</p>\n<input type="text" onchange="app()" id="txt"/><br/><p id="lblsaida"></p> <!-- aqui temos uma caixa de texto e um paragrafo vazio--> `)
-    setCodigoJs(`function app(){
+    let txt = `${function app(){
       let conjuntotxt="";
       const txt=document.getElementById("txt").value
       if(isNaN(parseInt(txt))){
@@ -87,8 +87,9 @@ export default function Teste() {
       document.getElementById("lblsaida").textContent=conjuntotxt
       }
     }  
-    
-    `)
+  }
+    `
+    setCodigoJs(txt)
     setCodigoCss("#Button{\n\n}\n// Essa é a id do botão, qualquer linha de código aqui refletirá no botão //")
 
 
