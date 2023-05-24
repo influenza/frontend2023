@@ -10,6 +10,9 @@ body{
 h2{
   margin-left: 18px;
 }
+#select{
+  margin-left: 20px;
+}
 .codigo{
   z-index: 10;
   position: absolute;
@@ -47,12 +50,7 @@ h2{
   padding: 1px;
   border-radius: 50%;
  }
- #edu-melo{
-    border: none;
-    position: relative;
-    width: 400px;
-   height:200px;
-}
+ 
  .red {
   background-color: #ff605c;
  }
@@ -106,6 +104,7 @@ textarea{
 }
 #textareas{
   transform: translateX(0%) translateY(50%);
+  border: none;
   position: relative;
   width: 400px;
   height: 400px;
