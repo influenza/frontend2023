@@ -125,8 +125,9 @@ export default function Teste() {
           <div className="card__content">
             <div dangerouslySetInnerHTML={{ __html: codigo }}></div>
           </div>
-        </div>
-        <div id="select" style={{position:"absolute",top:"5830px",marginLeft: "20px"}}>
+        </div>  
+      <div id="edu-melo">
+                <div id="select" style={{position:"absolute",top:"5830px",marginLeft: "20px"}}>
           <p>Aqui haverá algumas opções de códigos prefeitos</p>
           <select className="button" onChange={handleFuncoes}>
             <option value="Alterar cor do botão"> Botão com cor aleatória </option>
@@ -135,6 +136,7 @@ export default function Teste() {
             <option value="tabuada">Crie uma tabuada</option>
           </select>
         </div>
+      </div>
       </div>
     </>
   );
