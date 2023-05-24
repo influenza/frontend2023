@@ -9,7 +9,7 @@ const Diabo = ()=>{
         document.getElementById("tela-2").scrollIntoView();
     }
     const Css = ()=>{
-        document.getElementById("tela-3").scrollIntoView();
+        document.getElementById("tela3").scrollIntoView();
     }
     const JS = ()=>{
         document.getElementById("tela-4").scrollIntoView();
@@ -23,9 +23,12 @@ const Diabo = ()=>{
     const boot = ()=>{
         document.getElementById("telainicial1").scrollIntoView();
     }
+    const sasss =()=>{
+        document.getElementById("telainicial12").scrollIntoView();
+    }
     return(
     <div id="diabo" style={{width:"400px",backgroundColor:"#d5bdaf",margin:"0px", position:"absolute", zIndex:"10000"}}> 
-    <ul id="peido"> <li onClick={handleIntroducao}>Introducao</li><li onClick={OqueFrontend}> O que e Frontend</li><li onClick={Html}>Principais tecnologias</li><li onClick={Html}> Html<br/></li><li onClick={Css}>Css</li><li onClick={JS}>JS</li><li onClick={desafio}>Desafio</li><li onClick={Outrastec}>Outras tecnologias</li><li onClick={Outrastec}>React</li><li onClick={boot}>Bootstrap</li></ul></div>
+    <ul id="peido"> <li onClick={handleIntroducao}>Introducao</li><li onClick={OqueFrontend}> O que e Frontend</li><li onClick={Html}>Principais tecnologias</li><li onClick={Html}> Html<br/></li><li onClick={Css}>Css</li><li onClick={JS}>JS</li><li onClick={desafio}>Desafio</li><li onClick={Outrastec}>Outras tecnologias</li><li onClick={Outrastec}>React</li><li onClick={boot}>Bootstrap</li><li onClick={sasss}>Sass</li></ul></div>
     )
     
 }

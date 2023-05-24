@@ -67,18 +67,8 @@ export default function Teste() {
   const handlecaixadetxt = () => {
     setCodigo(` <p>Insira um algo</p><input type="text" onchange="app()" id="txt"/><br/><p id="lblsaida"></p><!-- Aqui temos uma caixa de texto e um parágrafo vazio --> `)
     setCodigoJs(`function app() {
-      let conjuntoTxt = "";
       const txt = document.getElementById("txt").value;
-      if (isNaN(parseInt(txt))) {
-        document.getElementById("lblsaida").textContent = "Você deve inserir um termo válido";
-      } else {
-        for (let index = 1; index < 10; index++) {
-          let num = parseInt(txt) * index;
-          conjuntoTxt += "Termo " + index.toString() + "°: " + num.toString() + "\n\n";
-        }
-        document.getElementById("lblsaida").textContent = conjuntoTxt;
-      }
-    }
+      document.getElementById("lblsaida").textContent = txt;
     }/* Com esse código, tudo que for escrito na caixa de texto será impresso na tela */`)
     setCodigoCss("#Button{\n\n}\n// Essa é a id do botão, qualquer linha de código aqui refletirá no botão //")
   }
@@ -109,9 +99,10 @@ export default function Teste() {
       <script id="script"/>
       <div id="teste">
 
-        <h2>Desafio</h2>
+        <h2>Teste seu conhecimento</h2>
         <p style={{ marginLeft: "20px" }}> Esse é o momento de praticar suas habilidades em HTML, CSS e JavaScript, e criar algo novo baseado nos seus aprendizados.</p>
         <p style={{ marginLeft: "20px" }}> Abaixo existirão três botões que levarão cada um a uma caixa de texto que representam o HTML, CSS e JavaScript do card ao lado.</p>
+        <p style={{marginLeft:"20px"}}>Tente criar algo novo e testar alguns codigos ja prontos que deixamos.</p>
         <TabControl />
         <div id="txtfas">
           <textarea name="" id="cod1" className="codigo" cols="30" rows="10" value={codigo} onChange={handleMudanca}></textarea>
