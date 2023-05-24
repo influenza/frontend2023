@@ -65,7 +65,7 @@ export default function Teste() {
     }/* Essa é uma função do JavaScript, por ela estar ligada ao evento "onclick" do botão, tudo colocado nessa função será executado no clique do botão */`);
   }
   const handlecaixadetxt = () => {
-    setCodigo(`    <input type="text" onchange="app()" id="txt"/><br/><p id="lblsaida"></p><!-- Aqui temos uma caixa de texto e um parágrafo vazio --> `)
+    setCodigo(` <p>Insira um algo</p><input type="text" onchange="app()" id="txt"/><br/><p id="lblsaida"></p><!-- Aqui temos uma caixa de texto e um parágrafo vazio --> `)
     setCodigoJs(`function app() {
       const txt = document.getElementById("txt").value;
       document.getElementById("lblsaida").textContent = txt;
@@ -73,7 +73,7 @@ export default function Teste() {
     setCodigoCss("#Button{\n\n}\n// Essa é a id do botão, qualquer linha de código aqui refletirá no botão //")
   }
   const  handletabuada =()=>{
-    setCodigo(`<p>insira um numero</p>\n<input type="text" onchange="app()" id="txt"/><br/><p id="lblsaida"></p> <!-- aqui temos uma caixa de texto e um paragrafo vazio--> `)
+    setCodigo(`<p>Insira um numero</p>\n<input type="text" onchange="app()" id="txt"/><br/><p id="lblsaida"></p> <!-- aqui temos uma caixa de texto e um paragrafo vazio--> `)
     setCodigoJs(`${function app(){
       
       let conjuntotxt="";
