@@ -12,7 +12,7 @@
     position: absolute;
     border-radius: 10px;
     transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    margin-left: 1500px;
+    margin-left: 1300px;
     top: 300px;
     overflow: auto; /* ou overflow: scroll; */
    }
