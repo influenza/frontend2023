@@ -67,8 +67,18 @@ export default function Teste() {
   const handlecaixadetxt = () => {
     setCodigo(` <p>Insira um algo</p><input type="text" onchange="app()" id="txt"/><br/><p id="lblsaida"></p><!-- Aqui temos uma caixa de texto e um parágrafo vazio --> `)
     setCodigoJs(`function app() {
+      let conjuntoTxt = "";
       const txt = document.getElementById("txt").value;
-      document.getElementById("lblsaida").textContent = txt;
+      if (isNaN(parseInt(txt))) {
+        document.getElementById("lblsaida").textContent = "Você deve inserir um termo válido";
+      } else {
+        for (let index = 1; index < 10; index++) {
+          let num = parseInt(txt) * index;
+          conjuntoTxt += "Termo " + index.toString() + "°: " + num.toString() + "\n\n";
+        }
+        document.getElementById("lblsaida").textContent = conjuntoTxt;
+      }
+    }
     }/* Com esse código, tudo que for escrito na caixa de texto será impresso na tela */`)
     setCodigoCss("#Button{\n\n}\n// Essa é a id do botão, qualquer linha de código aqui refletirá no botão //")
   }
