@@ -47,7 +47,11 @@ h2{
   padding: 1px;
   border-radius: 50%;
  }
- 
+ #edu-melo{
+    border: none;
+    position: relative;
+    width: 400px;
+}
  .red {
   background-color: #ff605c;
  }
